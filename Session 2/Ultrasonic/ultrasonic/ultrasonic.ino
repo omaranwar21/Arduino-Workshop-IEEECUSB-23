@@ -17,7 +17,6 @@ void loop() {
 
   int duration = pulseIn(ECHO, HIGH);
   int distance = (0.0343)*(duration/2);
-  int distance = (0.0343)*(duration/2);
   Serial.println(distance);
   delay(200);
 }
